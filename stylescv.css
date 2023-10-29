@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f86931;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+
+#container {
+    width:  500px;
+    margin: 0 auto; /* Aplicar margen automático para centrar horizontalmente */
+    width: 50%; /* Ajusta el ancho según tus necesidades */    
+}
+#SobreMi {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+  }
+  
+  #SobreMi img {
+    max-width: 100px; /* Ajusta el ancho de la imagen según tu necesidad */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+  }
+  
+  #SobreMi .contenido {
+    flex: 1; /* El contenido ocupa todo el espacio restante */
+  }
+  
+  #SobreMi h2 {
+    font-size: 24px; /* Estilo del título */
+  }
+  
+  #SobreMi p {
+    font-size: 16px; /* Estilo del texto */
+  }
+  
